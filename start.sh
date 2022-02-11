@@ -3,8 +3,8 @@
 # configs
 AUUID=457ef2f8-23e5-41b9-815e-44f36edfb691
 CADDYIndexPage=https://github.com/PavelDoGreat/WebGL-Fluid-Simulation/archive/master.zip
-CONFIGCADDY=https://raw.githubusercontent.com/kinkicon/Railway-Xray/master/etc/Caddyfile
-CONFIGXRAY=https://raw.githubusercontent.com/kinkicon/Railway-Xray/master/etc/xray.json
+CONFIGCADDY=https://raw.githubusercontent.com/kinkicon/Path/master/etc/Caddyfile
+CONFIGXRAY=https://raw.githubusercontent.com/kinkicon/Path/master/etc/xray.json
 ParameterSSENCYPT=chacha20-ietf-poly1305
 Xray_Newv=`wget --no-check-certificate -qO- https://api.github.com/repos/XTLS/Xray-core/tags | grep 'name' | cut -d\" -f4 | head -1 | cut -b 2-`
 
